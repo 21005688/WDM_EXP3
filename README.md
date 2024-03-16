@@ -15,6 +15,7 @@ GSP finds application in various domains such as market basket analysis, web usa
 </p>
 
 ### Procedure:
+
 <p align="justify">
 1. From collections import defaultdict, from itertools import combinations: Imports necessary libraries/modules. defaultdict is
 used to create a dictionary with default values and combinations generates all possible combinations of a sequence.</p>
@@ -38,6 +39,7 @@ for each wear category.</p>
 <p align="justify">
 8. Visulaize the sequence patterns using matplotlib.
 </p>
+
 ### Program:
 ```
 from collections import defaultdict
@@ -111,11 +113,13 @@ if party_wear_result:
   print(f"Pattern: {pattern}, Support: {support}")
 else:
  print("No frequent sequential patterns found in Party Wear.")
+
  ```
 
 
 
 ### Output:
+
 ![image](https://github.com/21005688/WDM_EXP3/assets/94747031/bba41fe5-120e-42a8-82d1-5cd06227204a)
 
 ### Visualization:
@@ -147,6 +151,7 @@ visualize_patterns_line(party_wear_result, 'Party Wear')
 ### Output:
 
 ![image](https://github.com/21005688/WDM_EXP3/assets/94747031/d945b51d-d429-4971-bd65-cd35475369d4)
+
 ![image](https://github.com/21005688/WDM_EXP3/assets/94747031/c314ae84-7739-4b31-9e31-cae6b30ef630)
 
 
